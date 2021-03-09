@@ -37,7 +37,7 @@ app.post('/api/notes', (req, res) => {
 
         //parsing our 'data' array into a readable list of objects
         let objectArray = JSON.parse(data);
-        console.log(objectArray);
+        //console.log(objectArray);
 
         //adds our new note req.body to our object array variable
         objectArray.push(req.body);
