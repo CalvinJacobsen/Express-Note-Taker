@@ -3,7 +3,7 @@ const { json } = require('express');
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
-var PORT = process.env.PORT || 3001;
+var PORT = process.env.PORT || 3000;
 
 //middleware
 const app = express();
