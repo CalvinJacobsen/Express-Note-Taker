@@ -93,5 +93,9 @@ app.delete('/api/notes/:id', (req, res) => {
 
 })
 
+app.get("/", function(req, res) {
+    res.json(path.join(__dirname, "public/index.html"));
+  });
+
 //listening on port # specified above
 app.listen(PORT, () => { console.log(`Listening on PORT ${PORT}`) })
